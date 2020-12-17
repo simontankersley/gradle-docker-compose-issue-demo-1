@@ -1,0 +1,7 @@
+plugins {
+    id 'com.avast.gradle.docker-compose' version '0.13.2'
+}
+
+dockerCompose {
+  checkContainersRunning = false
+}
